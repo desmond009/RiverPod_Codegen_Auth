@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "420424546471",
+    "project_id": "riverpod-auth-d3dc3",
+    "storage_bucket": "riverpod-auth-d3dc3.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:420424546471:android:b3affb0f44fff008440382",
+        "android_client_info": {
+          "package_name": "com.example.riverpod_authentication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBig8ZG8M6-2NHqOL2eFOk7-LjCNCBtDxs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:420424546471:android:297698f0f60e054d440382",
+        "android_client_info": {
+          "package_name": "com.example.riverpod_codegen"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBig8ZG8M6-2NHqOL2eFOk7-LjCNCBtDxs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
