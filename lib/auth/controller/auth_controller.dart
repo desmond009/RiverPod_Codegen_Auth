@@ -8,7 +8,7 @@ class AuthController extends _$AuthController {
 
   @override
   FutureOr<void> build() {
-    // initial state
+    
   }
 
   Future<void> signUp(String email, String password) async {

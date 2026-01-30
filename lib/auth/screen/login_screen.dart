@@ -14,7 +14,6 @@ class _LoginScreenState extends ConsumerState<LoginScreen> {
   final _email = TextEditingController();
   final _password = TextEditingController();
   
-  bool _isLoading = false;
   bool _obscureText = true;
 
     Future<void> _login() async {
