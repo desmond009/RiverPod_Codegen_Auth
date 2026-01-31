@@ -24,24 +24,6 @@ class _LoginScreenState extends ConsumerState<LoginScreen> {
           );
     }
 
-    void _showErrorDialog(String message) {
-    showDialog(
-      context: context,
-      builder: (ctx) => AlertDialog(
-        title: const Text("Login Failed"),
-        content: Text(message.contains('invalid-credential') 
-          ? "The email or password you entered is incorrect. Please try again." 
-          : message),
-        actions: [
-          TextButton(
-            onPressed: () => Navigator.of(ctx).pop(), 
-            child: const Text("OK"),
-          ),
-        ],
-      ),
-    );
-  }
-
   @override
   Widget build(BuildContext context) {
 

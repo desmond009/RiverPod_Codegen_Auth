@@ -13,6 +13,11 @@ AuthRepository authRepository(AuthRepositoryRef ref) {
   );
 }
 
+@riverpod
+Stream<User?> authState(AuthStateRef ref) {
+  return ref.watch(authRepositoryProvider).authStateChanges;
+}
+
 class AuthRepository {
   final FirebaseAuth _auth;
   final FirebaseFirestore _firestore;
